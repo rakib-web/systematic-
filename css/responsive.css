@@ -1,0 +1,48 @@
+/*tablet layout*/
+@media only screen and (min-width:200px) and (max-width:991px) {
+
+    
+
+    
+
+    .social_area {padding-top: 14px; max-width: 440px;}
+.inner_menu {background:none; min-height: auto;}
+.inner_menu::after {display: none;}
+.mean-container .mean-nav {margin-top: 0; width: 80%;}
+.inner_header {padding: 20px 0;}
+.text_area {width: 40%; float: right;}
+.text_area h2 {font-size: 40px;}
+#work_area {margin-left: 0px;}
+.child_service .service_text{ width: 65%; float: right;}
+}
+
+
+
+/*mobile layout*/
+@media only screen and (min-width:200px) and (max-width:480px) {
+
+    .mini_menu { width: 100%; margin-bottom: 10px;}
+
+    .mini_menu ul, .social_area ul {text-align: center;}
+
+    .search_area, .logo_area {float: none; margin: 0 auto; width: 250px;}
+    .social_area ul li{margin: 0 1px;}
+
+    .logo_area{ width: 200px; text-align: center;}
+
+    .inner_hero h2{font-size: 25px; margin-left: 10px;}
+    .inner_hero{overflow: hidden; padding-bottom: 20px;}
+    
+    .text_area{width: 100%; font-size: 25px; padding-bottom: 0px;}
+   
+    #work_area, #footer_area { padding: 20px 0;  margin-left: 0px;}
+
+    .child_work {width: 98%;}
+    .child_service .service_text { width: 75%; }
+    .child_footer {width: 96%;}
+    .left_copyright {float: right; width: 100%;}
+    .right_copyright {float: right;text-align: left; width: 100%;}
+    .left_copyright p,.right_copyright p {margin: 5px;}
+       
+  
+     }
